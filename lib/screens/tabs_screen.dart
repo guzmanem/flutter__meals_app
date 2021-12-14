@@ -7,6 +7,8 @@ import './categories_screen.dart';
 class TabsScreen extends StatefulWidget {
   @override
   _TabsScreenState createState() => _TabsScreenState();
+
+  static final routeName = '/';
 }
 
 class _TabsScreenState extends State<TabsScreen> {
